@@ -1,0 +1,27 @@
+{
+  "name": "cas-server-db-schema",
+  "version": "0.1.0",
+  "description": "Used to create/maintain a database for cas-server registry plugins",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cas",
+    "jasig",
+    "apereo",
+    "cas-server"
+  ],
+  "homepage": "https://github.com/jscas/cas-server-db-schema",
+  "bugs": "https://github.com/jscas/cas-server-db-schema/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jscas/cas-server-db-schema.git"
+  },
+  "author": "James Sumners",
+  "license": "MIT",
+  "dependencies": {
+    "knex": "^0.9.0",
+    "pg": "^4.4.3"
+  }
+}
